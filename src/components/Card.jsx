@@ -19,7 +19,7 @@ function Card() {
          </ul>
          <a href='https://www.youtube.com/watch?v=1DpH-icPpl0&ab_channel=TheWeekndVEVO' target='_blank' className='card-song'>Listen here </a>
          <div className={style.ratingSection}>
-            <p>Rate this album:</p>
+            <p>Rate this single :</p>
             <div className={style.stars}>
               {[1, 2, 3].map((star, index) => (
                 <span 
