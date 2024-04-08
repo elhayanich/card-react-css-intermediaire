@@ -1,0 +1,52 @@
+
+.container {
+    display: flex;
+    justify-content: center;  /* Centrer verticalement */
+    background-color: #f4f4f9;
+    border-radius: 1.8rem;
+    box-shadow: 0 0 0 5px rgba(227, 0, 0, 0.5); 
+    height: 18rem;
+    width: 30rem;
+    margin: auto;
+}
+
+
+.cardimage{
+    height: 18rem;
+    width : 11rem;
+    border-radius: 1.9rem;
+}
+
+
+
+h2 {
+padding-left: 5rem;
+padding-right: 5rem;
+    color: white; 
+    font-size: 2rem;
+    text-shadow: 0 0 3px red, 0 0 3px red, 0 0 10px red; 
+}
+
+
+
+ .cardinformations{
+    padding-left: 1rem;
+    list-style-type: none;
+ }
+
+ .ratingSection {
+    margin-top: 10px;
+}
+
+.stars {
+    font-size: 30px; 
+}
+
+.star {
+    cursor: pointer; 
+    color: #ccc; 
+}
+
+.selectedStar {
+    color: gold;
+ }
